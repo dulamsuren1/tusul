@@ -1,0 +1,45 @@
+{
+    "menu": {
+      "drinks": [
+        {
+          "name": "Espresso",
+          "price": 2.50,
+          "description": "A single shot of our rich espresso",
+          "image": "espresso.jpg"
+        },
+        {
+          "name": "Latte",
+          "price": 4.50,
+          "description": "Steamed milk with a shot of espresso",
+          "image": "latte.jpg"
+        },
+        {
+          "name": "Cappuccino",
+          "price": 3.50,
+          "description": "Espresso with equal parts steamed milk and foam",
+          "image": "cappuccino.jpg"
+        }
+      ],
+      "pastries": [
+        {
+          "name": "Croissant",
+          "price": 2.50,
+          "description": "A flaky, buttery pastry",
+          "image": "croissant.jpg"
+        },
+        {
+          "name": "Muffin",
+          "price": 2.00,
+          "description": "A sweet, moist muffin",
+          "image": "muffin.jpg"
+        },
+        {
+          "name": "Scone",
+          "price": 2.50,
+          "description": "A crumbly, slightly sweet pastry",
+          "image": "scone.jpg"
+        }
+      ]
+    }
+  }
+  

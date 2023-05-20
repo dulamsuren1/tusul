@@ -1,0 +1,364 @@
+.body{
+  background-color: #ffd6a7;
+}
+
+.navbar-custom {
+    background-color: rgb(49, 27, 13);
+}
+
+.navbar-custom .navbar-brand,
+    .navbar-custom .navbar-text {
+        color: #e7c59d;
+        font-size: 25px;
+}
+
+.landing {
+    position: relative;
+}
+
+.content-container {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    padding: 10px;
+    background-color: white;
+    width: 25%;
+    height: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-container h3 {
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  .content-container p {
+    font-size: 14px;
+  }
+  .content-container button {
+    background-color: rgb(254, 160, 52);
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 60%;
+    height: 15%;
+    color: white;
+  }
+  .aboutus {
+    background-image: url("coffeebean.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-content: flex-start;
+  }
+.aboutus-content {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutus h2{
+    font-family:'Courier New', Courier, monospace;
+       display: grid;
+       margin-top: 15px;
+    grid-template-columns: minmax(100px, 1fr) auto minmax(40px, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 20px;
+    padding: 0 170px;
+  
+      
+  }
+  .aboutus img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+  
+
+
+
+h2:before,
+h2:after {
+    content: '';
+    border-top: 2px solid;
+}
+.main_shop .shop_img{
+  width: 50%;
+}
+.main_shop .shop_text{
+  width: 50%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 70px;
+  align-items:normal;
+ ;text-align: justify;
+}
+.shop_text h1{
+  color: #c17621;
+  font-size: 30px;
+}
+.shop_text p{
+  width: 400px;
+
+}
+
+
+.main_shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px; 
+}
+
+.shop_img {
+  flex: 0 0 347px;
+  margin-right: 50px;
+}
+
+.shop_img img {
+  width: 100vh;
+  height: auto;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  
+}
+
+.icons span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+  width: 100px; 
+  text-align: center;
+}
+
+.icons img {
+  width: 35px;
+  height: auto;
+  align-items: center;
+  position: relative;
+}
+
+.icons h3 {
+  font-size: 18px; 
+  margin-bottom: 10px;
+}
+
+.icons p {
+  font-size: 14px; 
+  margin-bottom: 0;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.menu-start {
+  background-color: #e7c59d;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(182, 122, 11, 0.5) inset;
+}
+
+.menu-start img {
+  width: 40vh;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 40px;
+
+}
+.menu-start img:last-child {
+  margin-left: 140px;
+}
+
+.menu-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+  text-align: center;
+  margin-left: 110px;
+  
+}
+
+.menu-description h4 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.menu-description p {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+
+.menu-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+  background-color: #fff1e1;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+flex-basis: calc(50% - 10px);
+position: relative;
+}
+
+.column:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  border-left: 1px solid black;
+}
+
+
+.column img {
+  display: block;
+  width: 15vh;
+  height: auto;
+}
+.column p{
+  text-align: center;
+}
+
+.slide-container{
+  max-width: 100%;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content{
+  margin: 0 210px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+
+.card{
+  border-radius: 25px;
+  background-color: #FFF;
+  flex: 0 0 auto;
+  width: 300px; 
+  margin-right: 110px;
+  
+}
+
+
+.image-content,
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #e7c59d;
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #e7c59d;
+}
+.overlay::after{
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+.card-image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #FFF;
+  padding: 3px;
+}
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #c17621;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description{
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.button{
+  border: none;
+  font-size: 16px;
+  color: #FFF;
+  padding: 8px 16px;
+  background-color: #e7c59d;
+  border-radius: 6px;
+  margin: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover{
+  background: #c17621;
+}
+
+.card-wrapper {
+  display: flex; 
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  scroll-snap-type: x mandatory; 
+  -webkit-overflow-scrolling: touch; 
+}
+
+
+.card-wrapper::-webkit-scrollbar {
+  display: none;
+}
